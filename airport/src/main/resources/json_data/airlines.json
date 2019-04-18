@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "loadCapacity": 1.0,
+    "flightRange": 2.0,
+    "passengerSeats": 3
+  },
+  {
+    "id": 0,
+    "loadCapacity": 1.0,
+    "flightRange": 2.0,
+    "passengerSeats": 3
+  }
+]
