@@ -9,10 +9,15 @@ public abstract class FlightVehicle extends Aircraft {
 
     private int passengerSeats;
 
-    public FlightVehicle() {}
+    public FlightVehicle() {
+    }
 
-    public FlightVehicle(double loadCapacity, double flightRange, int passengerSeats) {
-        super(loadCapacity, flightRange);
+    public FlightVehicle(String modelName,
+                         double loadCapacity,
+                         double flightRange,
+                         int passengerSeats
+    ) {
+        super(modelName, loadCapacity, flightRange);
         this.passengerSeats = passengerSeats;
     }
 

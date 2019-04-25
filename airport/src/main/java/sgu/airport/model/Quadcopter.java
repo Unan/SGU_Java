@@ -5,9 +5,13 @@ import javax.persistence.Entity;
 @Entity
 public class Quadcopter extends Aircraft {
 
-    public Quadcopter(){}
+    public Quadcopter() {
+    }
 
-    public Quadcopter(double loadCapacity, double flightRange) {
-        super(loadCapacity, flightRange);
+    public Quadcopter(String modelName,
+                      double loadCapacity,
+                      double flightRange
+    ) {
+        super(modelName, loadCapacity, flightRange);
     }
 }

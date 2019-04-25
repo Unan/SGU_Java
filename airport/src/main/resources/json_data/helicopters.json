@@ -1,14 +1,16 @@
 [
   {
     "id": 0,
-    "loadCapacity": 1.0,
-    "flightRange": 1.0,
-    "passengerSeats": 1
+    "modelName": "Eurocopter EC130 T2",
+    "loadCapacity": 800.0,
+    "flightRange": 660.0,
+    "passengerSeats": 7
   },
   {
     "id": 0,
-    "loadCapacity": 1.0,
-    "flightRange": 1.0,
-    "passengerSeats": 1
+    "modelName": "Robinson R66 TURBINE",
+    "loadCapacity": 600.0,
+    "flightRange": 601.0,
+    "passengerSeats": 4
   }
 ]

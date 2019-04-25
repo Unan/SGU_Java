@@ -1,14 +1,16 @@
 [
   {
     "id": 0,
-    "loadCapacity": 1.0,
-    "flightRange": 2.0,
-    "passengerSeats": 3
+    "modelName": "Boeing 787 Dreamliner",
+    "loadCapacity": 250000.0,
+    "flightRange": 13600.0,
+    "passengerSeats": 330
   },
   {
     "id": 0,
-    "loadCapacity": 1.0,
-    "flightRange": 2.0,
-    "passengerSeats": 3
+    "modelName": "Airbus A380",
+    "loadCapacity": 560000.0,
+    "flightRange": 10000.0,
+    "passengerSeats": 525
   }
 ]

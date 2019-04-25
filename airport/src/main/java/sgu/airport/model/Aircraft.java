@@ -14,13 +14,20 @@ public abstract class Aircraft {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
+    private String modelName;
+
     private double loadCapacity;
 
     private double flightRange;
 
-    public Aircraft(){}
+    public Aircraft() {
+    }
 
-    public Aircraft(double loadCapacity, double flightRange) {
+    public Aircraft(String modelName,
+                    double loadCapacity,
+                    double flightRange
+    ) {
+        this.modelName = modelName;
         this.loadCapacity = loadCapacity;
         this.flightRange = flightRange;
     }
@@ -31,6 +38,14 @@ public abstract class Aircraft {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getModelName() {
+        return modelName;
+    }
+
+    public void setModelName(String modelName) {
+        this.modelName = modelName;
     }
 
     public double getLoadCapacity() {

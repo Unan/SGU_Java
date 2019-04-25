@@ -9,4 +9,5 @@ import java.util.List;
 public interface HelicopterRepository extends CrudRepository<Helicopter, Integer> {
 
     List<Helicopter> getAllBy();
+    List<Helicopter> getHelicoptersByPassengerSeatsGreaterThanAndLoadCapacityGreaterThanAndFlightRangeGreaterThan(int passengerSeats, double loadCapacity, double flightRange);
 }

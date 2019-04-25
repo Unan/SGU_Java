@@ -5,9 +5,13 @@ import javax.persistence.Entity;
 @Entity
 public class CargoAircraft extends Aircraft {
 
-    public CargoAircraft(){}
+    public CargoAircraft() {
+    }
 
-    public CargoAircraft(double loadCapacity, double flightRange) {
-        super(loadCapacity, flightRange);
+    public CargoAircraft(String modelName,
+                         double loadCapacity,
+                         double flightRange
+    ) {
+        super(modelName, loadCapacity, flightRange);
     }
 }

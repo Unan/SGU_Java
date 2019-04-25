@@ -9,4 +9,5 @@ import java.util.List;
 public interface AirlineRepository extends CrudRepository<Airline, Integer> {
 
     List<Airline> getAllBy();
+    List<Airline> getAirlinesByPassengerSeatsGreaterThanAndLoadCapacityGreaterThanAndFlightRangeGreaterThan(int passengerSeats, double loadCapacity, double flightRange);
 }

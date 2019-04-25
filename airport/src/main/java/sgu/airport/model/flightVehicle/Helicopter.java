@@ -5,9 +5,14 @@ import javax.persistence.Entity;
 @Entity
 public class Helicopter extends FlightVehicle {
 
-    public Helicopter(){}
+    public Helicopter() {
+    }
 
-    public Helicopter(double loadCapacity, double flightRange, int seatsNumber) {
-        super(loadCapacity, flightRange, seatsNumber);
+    public Helicopter(String modelName,
+                      double loadCapacity,
+                      double flightRange,
+                      int seatsNumber
+    ) {
+        super(modelName, loadCapacity, flightRange, seatsNumber);
     }
 }

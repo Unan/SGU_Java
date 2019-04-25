@@ -5,10 +5,15 @@ import javax.persistence.Entity;
 @Entity
 public class Airline extends FlightVehicle {
 
-    public Airline(){}
+    public Airline() {
+    }
 
-    public Airline(double loadCapacity, double flightRange, int seatsNumber) {
-        super(loadCapacity, flightRange, seatsNumber);
+    public Airline(String modelName,
+                   double loadCapacity,
+                   double flightRange,
+                   int seatsNumber
+    ) {
+        super(modelName, loadCapacity, flightRange, seatsNumber);
     }
 
 }
