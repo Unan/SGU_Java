@@ -1,10 +1,9 @@
-package sgu.airport.service.impl;
+package sgu.airport.service.airlineService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import sgu.airport.model.aircraft.flightVehicle.Airline;
 import sgu.airport.repository.flightVehicle.AirlineRepository;
-import sgu.airport.service.AirlineService;
 import java.util.ArrayList;
 import java.util.List;
 

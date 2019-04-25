@@ -1,4 +1,4 @@
-package sgu.airport.service;
+package sgu.airport.service.helicopterService;
 
 import sgu.airport.model.aircraft.flightVehicle.Helicopter;
 import java.util.ArrayList;

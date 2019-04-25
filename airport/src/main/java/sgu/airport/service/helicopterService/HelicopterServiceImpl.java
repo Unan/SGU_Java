@@ -1,10 +1,9 @@
-package sgu.airport.service.impl;
+package sgu.airport.service.helicopterService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import sgu.airport.model.aircraft.flightVehicle.Helicopter;
 import sgu.airport.repository.flightVehicle.HelicopterRepository;
-import sgu.airport.service.HelicopterService;
 import java.util.ArrayList;
 import java.util.List;
 
