@@ -1,6 +1,4 @@
-package sgu.airport.model;
-
-import sgu.airport.model.flightVehicle.Airline;
+package sgu.airport.model.aircraft;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

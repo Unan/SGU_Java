@@ -1,9 +1,9 @@
-package sgu.airport.model;
+package sgu.airport.model.aircraft.cargoAircraft;
 
 import javax.persistence.Entity;
 
 @Entity
-public class Quadcopter extends Aircraft {
+public class Quadcopter extends CargoAircraft {
 
     public Quadcopter() {
     }

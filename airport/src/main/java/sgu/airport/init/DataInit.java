@@ -5,11 +5,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
-import sgu.airport.model.flightVehicle.Airline;
-import sgu.airport.model.flightVehicle.Helicopter;
+import sgu.airport.model.aircraft.flightVehicle.Airline;
+import sgu.airport.model.aircraft.flightVehicle.Helicopter;
 import sgu.airport.repository.flightVehicle.AirlineRepository;
 import sgu.airport.repository.flightVehicle.HelicopterRepository;
-
 import javax.annotation.PostConstruct;
 import java.io.*;
 import java.util.ArrayList;

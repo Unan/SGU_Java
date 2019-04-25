@@ -1,7 +1,6 @@
-package sgu.airport.model.flightVehicle;
+package sgu.airport.model.aircraft.flightVehicle;
 
-import sgu.airport.model.Aircraft;
-
+import sgu.airport.model.aircraft.Aircraft;
 import javax.persistence.*;
 
 @MappedSuperclass

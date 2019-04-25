@@ -1,4 +1,4 @@
-package sgu.airport.model.flightVehicle;
+package sgu.airport.model.aircraft.flightVehicle;
 
 import javax.persistence.Entity;
 

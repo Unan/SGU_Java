@@ -1,7 +1,6 @@
 package sgu.airport.service;
 
-import sgu.airport.model.flightVehicle.Airline;
-
+import sgu.airport.model.aircraft.flightVehicle.Airline;
 import java.util.ArrayList;
 import java.util.List;
 

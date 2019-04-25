@@ -2,7 +2,7 @@ package sgu.airport.repository.flightVehicle;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import sgu.airport.model.flightVehicle.Helicopter;
+import sgu.airport.model.aircraft.flightVehicle.Helicopter;
 import java.util.List;
 
 @Repository

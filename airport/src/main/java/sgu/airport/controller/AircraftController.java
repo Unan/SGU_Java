@@ -6,14 +6,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import sgu.airport.model.flightVehicle.Airline;
-import sgu.airport.model.flightVehicle.FlightVehicle;
-import sgu.airport.model.flightVehicle.Helicopter;
+import sgu.airport.model.aircraft.flightVehicle.Airline;
+import sgu.airport.model.aircraft.flightVehicle.FlightVehicle;
+import sgu.airport.model.aircraft.flightVehicle.Helicopter;
 import sgu.airport.model.parameter.AirlineParameters;
 import sgu.airport.service.AirlineService;
 import sgu.airport.service.HelicopterService;
-
-import java.lang.reflect.Parameter;
 import java.util.ArrayList;
 import java.util.List;
 
