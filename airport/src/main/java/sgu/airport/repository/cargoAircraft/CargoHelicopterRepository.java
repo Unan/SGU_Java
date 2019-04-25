@@ -1,4 +1,4 @@
-package sgu.airport.repository;
+package sgu.airport.repository.cargoAircraft;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
